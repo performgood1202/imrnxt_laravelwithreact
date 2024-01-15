@@ -1,0 +1,35 @@
+import React, { useEffect, useState, useRef } from "react";
+import { connect } from "react-redux";
+import { useLocation, useNavigate, Link } from "react-router-dom";
+import { Navbar, Nav, Container, NavDropdown } from 'react-bootstrap';
+
+
+const mapStateToProps = (state) => ({});
+
+const mapDispatchToProps = (dispatch) => ({
+});
+
+
+const Slider = (props) => {
+	const {  } = props
+
+	const [gImgActive,setGImgActive] = useState(false)
+	const [reactSecTop,setReactSecTop] = useState(0)
+
+
+
+	useEffect(() => {
+
+	}, []);
+
+
+  	return (
+	    <React.Fragment>
+	    	<section >
+			      	
+			</section>
+	    </React.Fragment>
+  	);
+};
+
+export default connect(mapStateToProps, mapDispatchToProps)(Slider);
